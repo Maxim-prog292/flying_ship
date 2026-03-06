@@ -1,0 +1,28 @@
+[
+  {
+    "id": "navigator-ai",
+    "title": "Навигационный ИИ",
+    "modifiers": { "magBalance": 8, "stability": 5 },
+    "bonuses": [
+      {
+        "key": "course-optimizer",
+        "description": "Оптимизация маршрута увеличивает дальность.",
+        "modifiers": { "range": 4 }
+      }
+    ],
+    "risks": []
+  },
+  {
+    "id": "storm-drone",
+    "title": "Штормовой дрон",
+    "modifiers": { "lift": 6, "stability": -3 },
+    "bonuses": [],
+    "risks": [
+      {
+        "key": "signal-noise",
+        "description": "Помехи иногда ломают магбаланс.",
+        "modifiers": { "magBalance": -4 }
+      }
+    ]
+  }
+]

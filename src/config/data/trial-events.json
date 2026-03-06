@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sun-wind",
+    "title": "Солнечный ветер",
+    "modifiers": { "range": 6, "magBalance": -3 },
+    "risk": "Порыв может отклонить курс."
+  },
+  {
+    "id": "ion-storm",
+    "title": "Ионный шторм",
+    "modifiers": { "stability": -7, "lift": 4 },
+    "risk": "Сложное управление во время разряда."
+  }
+]

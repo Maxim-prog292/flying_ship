@@ -1,0 +1,34 @@
+[
+  {
+    "id": "solar-array",
+    "title": "Солнечные паруса",
+    "modifiers": { "range": 10, "magBalance": 4 },
+    "bonuses": [
+      {
+        "key": "eco-charge",
+        "description": "Снижает перегрев и держит баланс.",
+        "modifiers": { "magBalance": 5 }
+      }
+    ],
+    "risks": [
+      {
+        "key": "cloud-dependence",
+        "description": "Облачность уменьшает подъёмную силу.",
+        "modifiers": { "lift": -5 }
+      }
+    ]
+  },
+  {
+    "id": "ether-reactor",
+    "title": "Эфирный реактор",
+    "modifiers": { "lift": 14, "range": 4 },
+    "bonuses": [],
+    "risks": [
+      {
+        "key": "pulse-instability",
+        "description": "Импульсы реактора могут снижать устойчивость.",
+        "modifiers": { "stability": -8 }
+      }
+    ]
+  }
+]
