@@ -1,0 +1,23 @@
+[
+  {
+    "id": "rough-landing",
+    "minScore": 0,
+    "maxScore": 180,
+    "title": "Жёсткая посадка",
+    "description": "Корабль добрался, но требует капитального ремонта."
+  },
+  {
+    "id": "stable-flight",
+    "minScore": 181,
+    "maxScore": 260,
+    "title": "Стабильный полёт",
+    "description": "Маршрут пройден без критических отклонений."
+  },
+  {
+    "id": "legendary-voyage",
+    "minScore": 261,
+    "maxScore": 400,
+    "title": "Легендарный рейс",
+    "description": "Экипаж установил новый рекорд дальности и контроля."
+  }
+]

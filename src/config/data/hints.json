@@ -1,0 +1,23 @@
+[
+  {
+    "id": "low-lift",
+    "trigger": "lift",
+    "condition": "low",
+    "threshold": 60,
+    "text": "Подъёмная сила низкая: добавьте более мощный источник энергии."
+  },
+  {
+    "id": "low-stability",
+    "trigger": "stability",
+    "condition": "low",
+    "threshold": 55,
+    "text": "Устойчивость проседает: рассмотрите более тяжёлый корпус."
+  },
+  {
+    "id": "high-overall",
+    "trigger": "overall",
+    "condition": "high",
+    "threshold": 280,
+    "text": "Отличная сборка: можно рискнуть сложными испытаниями."
+  }
+]

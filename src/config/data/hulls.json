@@ -1,0 +1,40 @@
+[
+  {
+    "id": "light-skiff",
+    "title": "Лёгкий скиф",
+    "base": { "lift": 62, "magBalance": 70, "stability": 45, "range": 65 },
+    "bonuses": [
+      {
+        "key": "aero-shell",
+        "description": "Облегчённый контур повышает дальность.",
+        "modifiers": { "range": 8 }
+      }
+    ],
+    "risks": [
+      {
+        "key": "gust-sensitive",
+        "description": "Порывы ветра снижают устойчивость.",
+        "modifiers": { "stability": -6 }
+      }
+    ]
+  },
+  {
+    "id": "cargo-barge",
+    "title": "Грузовая баржа",
+    "base": { "lift": 84, "magBalance": 55, "stability": 74, "range": 42 },
+    "bonuses": [
+      {
+        "key": "reinforced-keel",
+        "description": "Усиленный киль добавляет устойчивость.",
+        "modifiers": { "stability": 9 }
+      }
+    ],
+    "risks": [
+      {
+        "key": "massive-body",
+        "description": "Тяжёлый корпус уменьшает дальность.",
+        "modifiers": { "range": -7 }
+      }
+    ]
+  }
+]
